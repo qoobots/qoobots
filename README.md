@@ -8,12 +8,12 @@
 
 ### 🧑‍💻 About Me
 
-- 🔭 I'm currently working on: **QooBot 仿生人操作系统** & **QooERP 企业级 ERP 系统**
-- 🌱 Exploring: 多模态大模型、AI Agent 垂直行业落地、Web3 + DID 去中心化身份
-- 👯 I'm looking to collaborate on: AI 开源项目、企业级 SaaS 系统
-- 💬 Ask me about: **Java 微服务架构、Spring Boot 3.x、AI Agent 开发、企业级系统设计**
+- 🔭 Currently working on: **QooBot Humanoid Robot OS** & **QooERP Enterprise ERP System**
+- 🌱 Exploring: Multimodal LLMs, AI Agent vertical industry deployment, Web3 + Decentralized Identity (DID)
+- 👯 Looking to collaborate on: AI open-source projects, enterprise SaaS systems
+- 💬 Ask me about: **Java microservices, Spring Boot 3.x, AI Agent development, enterprise system design**
 - 📫 Reach me: **hello@qoobot.com**
-- ⚡ 27+ 开源项目，覆盖 AI / ERP / 云计算 / 电商 / Web3 / 机器人等多个领域
+- ⚡ 27+ open-source projects across AI, ERP, cloud computing, e-commerce, Web3, robotics, and more
 
 ---
 
@@ -88,44 +88,44 @@
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| [qoocode](https://github.com/qoobots/qoocode) | 仿 Claude Code 的开源 AI 编程助手 CLI，63+ 斜杠命令、34+ 工具 | `TypeScript` `Bun` `OpenAI API` |
-| [aicoding](https://github.com/qoobots/aicoding) | 基于大语言模型的智能代码生成工具，支持企业级项目批量生成 | `Electron` `NestJS` `Vue 3` |
-| [openagent](https://github.com/qoobots/openagent) | 覆盖 23 个垂直领域的 AI Agent 系统，混合 LangChain4J + Spring AI | `Java 21` `Spring Boot 3` `PgVector` |
-| [openllm](https://github.com/qoobots/openllm) | 10 个垂直领域大模型微调项目（金融/医疗/法律/制造等） | `Python` `PyTorch` `LoRA/QLoRA` |
-| [openlabeling](https://github.com/qoobots/openlabeling) | 专为 LLM 训练设计的大模型数据标注平台 | `Vue 3` `FastAPI` `Detectron2` |
-| [qoowork](https://github.com/qoobots/qoowork) | AI 办公平台—全场景桌面级 AI 助手 + IDE 插件 | `Electron` `React 18` `Vite 6` |
+| [qoocode](https://github.com/qoobots/qoocode) | Claude Code-inspired open-source AI coding assistant CLI, 63+ slash commands, 34+ tools | `TypeScript` `Bun` `OpenAI API` |
+| [aicoding](https://github.com/qoobots/aicoding) | LLM-powered intelligent code generation tool with batch enterprise project generation | `Electron` `NestJS` `Vue 3` |
+| [openagent](https://github.com/qoobots/openagent) | AI Agent system covering 23 vertical domains, hybrid LangChain4J + Spring AI | `Java 21` `Spring Boot 3` `PgVector` |
+| [openllm](https://github.com/qoobots/openllm) | 10 vertical-domain LLM fine-tuning projects (finance, healthcare, legal, manufacturing, etc.) | `Python` `PyTorch` `LoRA/QLoRA` |
+| [openlabeling](https://github.com/qoobots/openlabeling) | LLM data annotation platform designed for LLM training | `Vue 3` `FastAPI` `Detectron2` |
+| [qoowork](https://github.com/qoobots/qoowork) | AI office platform — all-scenario desktop AI assistant + IDE plugins | `Electron` `React 18` `Vite 6` |
 
 #### 🏢 Enterprise Applications
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| [qooerp](https://github.com/qoobots/qooerp) | 全球领先的下一代开源 ERP 系统，100+ 业务模块，DDD + 微服务 | `Spring Cloud` `Vue 3` `PostgreSQL` |
-| [openaccounting](https://github.com/qoobots/openaccounting) | 企业级会计管理系统（总账/报表/预算/资产管理） | `Spring Boot 3` `MyBatis Plus` `Flowable` |
-| [opentax](https://github.com/qoobots/opentax) | 企业税务管理系统（发票/申报/风控/金税四期） | `Spring Boot 3` `MySQL` `Spring Security` |
-| [openscm](https://github.com/qoobots/openscm) | 企业级供应链管理系统（供应商/采购/库存/物流） | `Spring Boot 3` `MyBatis-Plus` `Redis` |
-| [openwarehouse](https://github.com/qoobots/openwarehouse) | 开源仓储管理系统，四级仓库管理体系 | `Spring Boot 3` `MySQL` `JUnit 5` |
-| [openidaas](https://github.com/qoobots/openidaas) | 企业级身份认证即服务系统，OAuth2.1 + SAML 2.0 | `Spring Cloud` `Vue 3` `OAuth2.1` |
-| [openadmin](https://github.com/qoobots/openadmin) | 现代化企业级应用框架，完整微服务解决方案 | `JDK 25` `Spring Boot` `Nacos` |
+| [qooerp](https://github.com/qoobots/qooerp) | Next-gen open-source ERP system, 100+ business modules, DDD + microservices | `Spring Cloud` `Vue 3` `PostgreSQL` |
+| [openaccounting](https://github.com/qoobots/openaccounting) | Enterprise accounting management system (general ledger, reporting, budgeting, assets) | `Spring Boot 3` `MyBatis Plus` `Flowable` |
+| [opentax](https://github.com/qoobots/opentax) | Enterprise tax management system (invoicing, filing, risk control, Golden Tax IV) | `Spring Boot 3` `MySQL` `Spring Security` |
+| [openscm](https://github.com/qoobots/openscm) | Enterprise supply chain management (supplier, procurement, inventory, logistics) | `Spring Boot 3` `MyBatis-Plus` `Redis` |
+| [openwarehouse](https://github.com/qoobots/openwarehouse) | Open-source warehouse management system with 4-tier warehouse hierarchy | `Spring Boot 3` `MySQL` `JUnit 5` |
+| [openidaas](https://github.com/qoobots/openidaas) | Enterprise Identity-as-a-Service, OAuth2.1 + SAML 2.0 | `Spring Cloud` `Vue 3` `OAuth2.1` |
+| [openadmin](https://github.com/qoobots/openadmin) | Modern enterprise application framework with complete microservice solutions | `JDK 25` `Spring Boot` `Nacos` |
 
 #### ☁️ Platform & Infrastructure
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| [qoobot](https://github.com/qoobots/qoobot) | 仿生人操作系统—大脑 OS + AI 推理引擎 + 运动控制 | `C++17` `Python` `ROS2` `MuJoCo` |
-| [opencloud](https://github.com/qoobots/opencloud) | 企业级开源云计算平台，VM + 容器双重架构 | `OpenStack` `K8s` `Ceph` `Istio` |
-| [openlowcode](https://github.com/qoobots/openlowcode) | 基于 JavaFX 桌面的低代码代码生成平台 | `Java 21` `JavaFX` `FreeMarker` |
-| [solra](https://github.com/qoobots/solra) | 下一代去中心化自主虚拟世界（5G 空间社交） | `C++17` `Spring Boot 3` `Vue 3` |
-| [openclaw](https://github.com/qoobots/openclaw) | 个人 AI 助手，支持 25+ 消息渠道 | `TypeScript` `Node.js` `pnpm` |
+| [qoobot](https://github.com/qoobots/qoobot) | Humanoid robot OS — Brain OS + AI inference engine + motion control | `C++17` `Python` `ROS2` `MuJoCo` |
+| [opencloud](https://github.com/qoobots/opencloud) | Enterprise open-source cloud platform, VM + container dual architecture | `OpenStack` `K8s` `Ceph` `Istio` |
+| [openlowcode](https://github.com/qoobots/openlowcode) | JavaFX desktop-based low-code code generation platform | `Java 21` `JavaFX` `FreeMarker` |
+| [solra](https://github.com/qoobots/solra) | Next-gen decentralized autonomous virtual world (5G spatial social) | `C++17` `Spring Boot 3` `Vue 3` |
+| [openclaw](https://github.com/qoobots/openclaw) | Personal AI assistant supporting 25+ messaging channels | `TypeScript` `Node.js` `pnpm` |
 
 #### 🛒 E-commerce & Social & Web3
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| [openmall](https://github.com/qoobots/openmall) | 生产级 B2B2C 多商户电商平台 | `Spring Boot 3` `Thymeleaf` `Bootstrap 5` |
-| [openim](https://github.com/qoobots/openim) | 微信风格即时通讯应用（聊天/朋友圈/红包） | `Flutter` `Dart 3` |
-| [openrecommend](https://github.com/qoobots/openrecommend) | 多内容类型智能推荐系统（协同过滤 + MMR） | `Spring Boot 3` `Redis` `Caffeine` |
-| [openweb3](https://github.com/qoobots/openweb3) | Web3 应用场景与架构蓝图（20 个场景 + RWA/DePIN） | `Spring Boot 3` `Web3j` `Solidity` |
-| [openblog](https://github.com/qoobots/openblog) | QooBot 组织官方宣传网站（赛博朋克终端风格） | `Astro 5` `React 19` `TailwindCSS 4` |
+| [openmall](https://github.com/qoobots/openmall) | Production-grade B2B2C multi-vendor e-commerce platform | `Spring Boot 3` `Thymeleaf` `Bootstrap 5` |
+| [openim](https://github.com/qoobots/openim) | WeChat-style instant messaging app (chat, moments, red packets) | `Flutter` `Dart 3` |
+| [openrecommend](https://github.com/qoobots/openrecommend) | Multi-content intelligent recommendation system (collaborative filtering + MMR) | `Spring Boot 3` `Redis` `Caffeine` |
+| [openweb3](https://github.com/qoobots/openweb3) | Web3 application scenarios & architecture blueprints (20 scenarios + RWA/DePIN) | `Spring Boot 3` `Web3j` `Solidity` |
+| [openblog](https://github.com/qoobots/openblog) | QooBot official showcase site (cyberpunk terminal style) | `Astro 5` `React 19` `TailwindCSS 4` |
 
 ---
 
