@@ -82,19 +82,6 @@
 
 ---
 
-### 📊 GitHub Stats
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=qoobots&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=qoobots&layout=compact&theme=github_dark&hide_border=true&langs_count=8" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=qoobots&theme=github-dark&hide_border=true" />
-</div>
-
----
-
 ### 📌 Featured Projects
 
 #### 🤖 AI & LLM
