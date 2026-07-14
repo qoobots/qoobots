@@ -1,0 +1,277 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" font-family="system-ui, -apple-system, 'Microsoft YaHei', sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <!-- Cloud Service -->
+    <linearGradient id="cloud" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a6b8a"/><stop offset="100%" stop-color="#1e7a9e"/>
+    </linearGradient>
+    <!-- Brain -->
+    <linearGradient id="brain" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2d6a4f"/><stop offset="100%" stop-color="#40916c"/>
+    </linearGradient>
+    <!-- AI Engine -->
+    <linearGradient id="aiengine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7b2d8b"/><stop offset="100%" stop-color="#9b5de5"/>
+    </linearGradient>
+    <!-- System Services -->
+    <linearGradient id="svc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c47e0a"/><stop offset="100%" stop-color="#e6a817"/>
+    </linearGradient>
+    <!-- Desktop/Web -->
+    <linearGradient id="desktop" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1e6091"/><stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <!-- Edge -->
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b91c1c"/><stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <!-- HAL -->
+    <linearGradient id="hal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4a6741"/><stop offset="100%" stop-color="#6b8f5e"/>
+    </linearGradient>
+    <!-- Protocol -->
+    <linearGradient id="proto" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5c4a3d"/><stop offset="100%" stop-color="#8b7355"/>
+    </linearGradient>
+    <!-- Skill Store -->
+    <linearGradient id="store" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4a4a6a"/><stop offset="100%" stop-color="#6b6b8e"/>
+    </linearGradient>
+    <!-- Hardware -->
+    <linearGradient id="hw" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6a4a3d"/><stop offset="100%" stop-color="#a0715a"/>
+    </linearGradient>
+    <!-- Shadow -->
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+    <filter id="shadowSmall" x="-2%" y="-2%" width="104%" height="108%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+    <marker id="arrowGray" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#484f58"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#58a6ff"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#3fb950"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="900" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="35" text-anchor="middle" fill="#e6edf3" font-size="22" font-weight="bold">QooBot Architecture Overview</text>
+  <text x="600" y="55" text-anchor="middle" fill="#8b949e" font-size="12">Full-Stack Open Source | Hardware + Software | Apache 2.0 | v1.0.0-alpha</text>
+
+  <!-- ===== Layer 1: Cloud Service Layer (Y=70) ===== -->
+  <rect x="30" y="70" width="1140" height="120" rx="8" fill="#0d1117" stroke="#1a6b8a" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="50" y="92" fill="#1e7a9e" font-size="13" font-weight="bold">☁️ Cloud Service Layer — qoobot-service (Java Spring Boot Microservices)</text>
+
+  <!-- Cloud Submodules -->
+  <rect x="50" y="102" width="155" height="36" rx="4" fill="url(#cloud)" filter="url(#shadowSmall)"/>
+  <text x="127" y="125" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">qooauth Auth Service</text>
+
+  <rect x="220" y="102" width="155" height="36" rx="4" fill="url(#cloud)" filter="url(#shadowSmall)"/>
+  <text x="297" y="125" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">qoocloud Cloud Platform</text>
+
+  <rect x="390" y="102" width="155" height="36" rx="4" fill="url(#cloud)" filter="url(#shadowSmall)"/>
+  <text x="467" y="125" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">qoostore Skill Store</text>
+
+  <rect x="560" y="102" width="155" height="36" rx="4" fill="url(#cloud)" filter="url(#shadowSmall)"/>
+  <text x="637" y="125" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">qoochain Supply Chain</text>
+
+  <rect x="730" y="102" width="155" height="36" rx="4" fill="url(#cloud)" filter="url(#shadowSmall)"/>
+  <text x="807" y="125" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">qoogear Gear Certification</text>
+
+  <rect x="900" y="102" width="155" height="36" rx="4" fill="url(#cloud)" filter="url(#shadowSmall)"/>
+  <text x="977" y="125" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">qoocommunity Community</text>
+
+  <!-- Cloud Sub-Functions -->
+  <text x="55" y="158" fill="#8b949e" font-size="9">OAuth2.0 · API Key</text>
+  <text x="55" y="170" fill="#8b949e" font-size="9">Device Trust · Security Audit</text>
+  <text x="225" y="158" fill="#8b949e" font-size="9">Remote Inference · Digital Twin</text>
+  <text x="225" y="170" fill="#8b949e" font-size="9">OTA · Multi-Robot Orchestration</text>
+  <text x="395" y="158" fill="#8b949e" font-size="9">Skill Publishing · CDN Distribution</text>
+  <text x="395" y="170" fill="#8b949e" font-size="9">Order Payment · Review Analysis</text>
+  <text x="565" y="158" fill="#8b949e" font-size="9">Manufacturing · BOM Management</text>
+  <text x="565" y="170" fill="#8b949e" font-size="9">Factory Calibration · Quality Inspection</text>
+  <text x="735" y="158" fill="#8b949e" font-size="9">MFQ Certification Process</text>
+  <text x="735" y="170" fill="#8b949e" font-size="9">Lab Management</text>
+  <text x="905" y="158" fill="#8b949e" font-size="9">Forum · Content Management</text>
+  <text x="905" y="170" fill="#8b949e" font-size="9">Governance · Events</text>
+
+  <!-- Layer 1 → Layer 2 -->
+  <line x1="600" y1="190" x2="600" y2="210" stroke="#484f58" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+
+  <!-- ===== Layer 2: User Access Layer (Y=210) ===== -->
+  <rect x="30" y="210" width="1140" height="100" rx="8" fill="#0d1117" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="50" y="232" fill="#58a6ff" font-size="13" font-weight="bold">💻 User Access Layer — Desktop / Web / Mobile</text>
+
+  <!-- qoobot-desktop -->
+  <rect x="50" y="245" width="280" height="50" rx="4" fill="url(#desktop)" filter="url(#shadowSmall)"/>
+  <text x="190" y="264" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">qoobot-desktop Desktop App</text>
+  <text x="190" y="282" text-anchor="middle" fill="#c9d1d9" font-size="9">qoodev CLI (19 sub-modules) · qooremote (PySide6)</text>
+
+  <!-- qoobot-web -->
+  <rect x="350" y="245" width="460" height="50" rx="4" fill="url(#desktop)" filter="url(#shadowSmall)"/>
+  <text x="580" y="264" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">qoobot-web Web Application</text>
+  <text x="580" y="282" text-anchor="middle" fill="#c9d1d9" font-size="9">portal · admin (Vue3) · community · brain-viz (Next.js) · gear · remote · dev-dashboard</text>
+
+  <!-- qoobot-mobile -->
+  <rect x="830" y="245" width="200" height="50" rx="4" fill="url(#desktop)" opacity="0.5" filter="url(#shadowSmall)"/>
+  <text x="930" y="264" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">qoobot-mobile</text>
+  <text x="930" y="282" text-anchor="middle" fill="#c9d1d9" font-size="9">Android / iOS (Planned)</text>
+
+  <!-- Layer 2 → Layer 3 -->
+  <line x1="600" y1="310" x2="600" y2="335" stroke="#484f58" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+
+  <!-- ===== Layer 3: Core Layer - qoobot-os (Y=335) ===== -->
+  <rect x="30" y="335" width="1140" height="310" rx="8" fill="#0d1117" stroke="#40916c" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="50" y="357" fill="#3fb950" font-size="13" font-weight="bold">🧠 Robot Core Layer — qoobot-os Humanoid Robot OS (C++17 / Python 3.11+ / ROS 2 Humble)</text>
+
+  <!-- QooBrain Brain -->
+  <rect x="50" y="370" width="350" height="130" rx="6" fill="#0d1117" stroke="#40916c" stroke-width="2"/>
+  <rect x="50" y="370" width="350" height="24" rx="6" fill="url(#brain)"/>
+  <text x="225" y="387" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">QooBrain Brain Core (brain/)</text>
+
+  <text x="62" y="410" fill="#58a6ff" font-size="9">brain_ai</text>
+  <text x="125" y="410" fill="#8b949e" font-size="9">Python · LLM Agent · Perception · Motion Planning · Model Runtime</text>
+  <text x="62" y="424" fill="#58a6ff" font-size="9">brain_core</text>
+  <text x="125" y="424" fill="#8b949e" font-size="9">C++17 · ROS2 · Behavior Tree Engine · Safety Monitor · Real-Time Control</text>
+  <text x="62" y="438" fill="#58a6ff" font-size="9">brain_sdk</text>
+  <text x="125" y="438" fill="#8b949e" font-size="9">Python Client Library · gRPC · WebSocket</text>
+  <text x="62" y="452" fill="#58a6ff" font-size="9">brain_sim</text>
+  <text x="125" y="452" fill="#8b949e" font-size="9">MuJoCo · Isaac Sim · Gazebo Simulation Bridge</text>
+  <text x="62" y="466" fill="#58a6ff" font-size="9">brain_proto</text>
+  <text x="125" y="466" fill="#8b949e" font-size="9">13 .proto Protocols (Perception/Cognition/Decision/Control)</text>
+  <text x="62" y="480" fill="#58a6ff" font-size="9">brain_models</text>
+  <text x="125" y="480" fill="#8b949e" font-size="9">Qwen2.5-7B · YOLOv11 · SAM2 · Whisper V3</text>
+
+  <!-- QooCore AI Engine -->
+  <rect x="420" y="370" width="220" height="130" rx="6" fill="#0d1117" stroke="#9b5de5" stroke-width="2"/>
+  <rect x="420" y="370" width="220" height="24" rx="6" fill="url(#aiengine)"/>
+  <text x="530" y="387" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">QooCore AI Inference Engine (ai-engine/)</text>
+
+  <text x="432" y="410" fill="#8b949e" font-size="9">C++17 · Chip-Level Acceleration</text>
+  <text x="432" y="426" fill="#8b949e" font-size="9">Multi-Backend Dispatch:</text>
+  <text x="432" y="442" fill="#58a6ff" font-size="9">NPU (TensorRT-LLM)</text>
+  <text x="432" y="456" fill="#58a6ff" font-size="9">GPU (CUDA/vLLM)</text>
+  <text x="432" y="470" fill="#58a6ff" font-size="9">CPU (llama.cpp/ONNX)</text>
+  <text x="432" y="484" fill="#58a6ff" font-size="9">DSP · Cloud Fallback</text>
+
+  <!-- QooSvc System Services -->
+  <rect x="660" y="370" width="200" height="130" rx="6" fill="#0d1117" stroke="#e6a817" stroke-width="2"/>
+  <rect x="660" y="370" width="200" height="24" rx="6" fill="url(#svc)"/>
+  <text x="760" y="387" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">QooSvc System Services (services/)</text>
+
+  <text x="672" y="410" fill="#8b949e" font-size="9">Voice Assistant · Spatial Understanding</text>
+  <text x="672" y="426" fill="#8b949e" font-size="9">Navigation · Self-Diagnosis</text>
+  <text x="672" y="442" fill="#8b949e" font-size="9">HMI Interaction · Charging Mgmt</text>
+  <text x="672" y="458" fill="#8b949e" font-size="9">Multi-Robot Interconnection</text>
+  <text x="672" y="474" fill="#8b949e" font-size="9">Video Processing · Person Detection</text>
+  <text x="672" y="490" fill="#8b949e" font-size="9">Remote Access · OTA Update</text>
+
+  <!-- QooEdge Edge -->
+  <rect x="880" y="370" width="275" height="130" rx="6" fill="#0d1117" stroke="#ef4444" stroke-width="2"/>
+  <rect x="880" y="370" width="275" height="24" rx="6" fill="url(#edge)"/>
+  <text x="1017" y="387" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">QooEdge Edge Module (edge/) + QooStore (store/)</text>
+
+  <text x="892" y="410" fill="#8b949e" font-size="9">C++17 · Edge SDK · Edge Mesh Networking</text>
+  <text x="892" y="426" fill="#8b949e" font-size="9">Inference Offloading · Data Sync</text>
+  <text x="892" y="444" fill="#58a6ff" font-size="9">QooStore Edge Runtime:</text>
+  <text x="892" y="460" fill="#8b949e" font-size="9">Skill Download/Install · Sandbox Runtime</text>
+  <text x="892" y="476" fill="#8b949e" font-size="9">Permission Mgmt · IPC</text>
+
+  <!-- QooBody HAL -->
+  <rect x="50" y="515" width="1105" height="70" rx="6" fill="#0d1117" stroke="#6b8f5e" stroke-width="2"/>
+  <rect x="50" y="515" width="1105" height="24" rx="6" fill="url(#hal)"/>
+  <text x="602" y="533" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">QooBody HAL (Hardware Abstraction Layer) (hal/) — C · C++ · Unified Hardware Interface Spec</text>
+
+  <rect x="65" y="546" width="155" height="28" rx="3" fill="#2d3a2d"/>
+  <text x="142" y="564" text-anchor="middle" fill="#6b8f5e" font-size="10">mechanical Structure</text>
+  <rect x="230" y="546" width="155" height="28" rx="3" fill="#2d3a2d"/>
+  <text x="307" y="564" text-anchor="middle" fill="#6b8f5e" font-size="10">sensor Sensor Interface</text>
+  <rect x="395" y="546" width="155" height="28" rx="3" fill="#2d3a2d"/>
+  <text x="472" y="564" text-anchor="middle" fill="#6b8f5e" font-size="10">actuator Actuator Driver</text>
+  <rect x="560" y="546" width="155" height="28" rx="3" fill="#2d3a2d"/>
+  <text x="637" y="564" text-anchor="middle" fill="#6b8f5e" font-size="10">power Power Management</text>
+  <rect x="725" y="546" width="155" height="28" rx="3" fill="#2d3a2d"/>
+  <text x="802" y="564" text-anchor="middle" fill="#6b8f5e" font-size="10">safety_hw Safety HW</text>
+  <rect x="890" y="546" width="155" height="28" rx="3" fill="#2d3a2d"/>
+  <text x="967" y="564" text-anchor="middle" fill="#6b8f5e" font-size="10">comm Communication Bus</text>
+
+  <!-- Layer 3 -> Layer 4 -->
+  <line x1="600" y1="645" x2="600" y2="670" stroke="#484f58" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+
+  <!-- ===== Layer 4: Hardware Layer (Y=670) ===== -->
+  <rect x="30" y="670" width="1140" height="85" rx="8" fill="#0d1117" stroke="#a0715a" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="50" y="692" fill="#d2a679" font-size="13" font-weight="bold">🔩 Hardware &amp; Manufacturing Layer — Open-Source Hardware Reference Design</text>
+
+  <rect x="50" y="704" width="200" height="36" rx="4" fill="url(#hw)" filter="url(#shadowSmall)"/>
+  <text x="150" y="719" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">Mechanical Structure Drawings</text>
+  <text x="150" y="733" text-anchor="middle" fill="#c9d1d9" font-size="8">3D Models · Joint Design · Enclosure</text>
+
+  <rect x="265" y="704" width="200" height="36" rx="4" fill="url(#hw)" filter="url(#shadowSmall)"/>
+  <text x="365" y="719" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">Circuit Schematics · PCB</text>
+  <text x="365" y="733" text-anchor="middle" fill="#c9d1d9" font-size="8">Main Board · Driver Board · Sensor Board</text>
+
+  <rect x="480" y="704" width="200" height="36" rx="4" fill="url(#hw)" filter="url(#shadowSmall)"/>
+  <text x="580" y="719" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">Computing Platform</text>
+  <text x="580" y="733" text-anchor="middle" fill="#c9d1d9" font-size="8">Jetson Orin · x86 · MCU</text>
+
+  <rect x="695" y="704" width="200" height="36" rx="4" fill="url(#hw)" filter="url(#shadowSmall)"/>
+  <text x="795" y="719" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">Sensors · Actuators</text>
+  <text x="795" y="733" text-anchor="middle" fill="#c9d1d9" font-size="8">Depth Camera · IMU · Torque Motor</text>
+
+  <rect x="910" y="704" width="200" height="36" rx="4" fill="url(#hw)" filter="url(#shadowSmall)"/>
+  <text x="1010" y="719" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">Firmware (firmware/)</text>
+  <text x="1010" y="733" text-anchor="middle" fill="#c9d1d9" font-size="8">MCU Firmware · Bootloader · RTOS</text>
+
+  <!-- ===== Right Column: qoobot-proto ===== -->
+  <rect x="30" y="770" width="1140" height="55" rx="8" fill="#0d1117" stroke="#8b7355" stroke-width="1.5"/>
+  <text x="50" y="790" fill="#d2a679" font-size="12" font-weight="bold">🔌 qoobot-proto Cross-Platform Protocol Hub — gRPC / Protobuf Unified Communication Spec</text>
+  <text x="50" y="810" fill="#8b949e" font-size="10">8 Protocol Domains: auth · brain · cloud · device · gear · remote · services · store  |  Proto files distributed across modules (brain 13 · services 6 · auth 4 · gear 3 · store 4)</text>
+
+  <!-- ===== Inter-Layer Communication ===== -->
+  <!-- Cloud <-> Robot OS -->
+  <path d="M160,190 L160,335" stroke="#58a6ff" stroke-width="1" stroke-dasharray="4,2" marker-end="url(#arrowBlue)" opacity="0.4"/>
+  <text x="165" y="270" fill="#58a6ff" font-size="8" opacity="0.6">gRPC</text>
+
+  <path d="M1000,190 L1000,335" stroke="#58a6ff" stroke-width="1" stroke-dasharray="4,2" marker-end="url(#arrowBlue)" opacity="0.4"/>
+  <text x="1005" y="270" fill="#58a6ff" font-size="8" opacity="0.6">gRPC</text>
+
+  <!-- Desktop/Web <-> Robot OS -->
+  <path d="M400,310 L400,335" stroke="#3fb950" stroke-width="1" stroke-dasharray="4,2" marker-end="url(#arrowGreen)" opacity="0.4"/>
+  <text x="405" y="325" fill="#3fb950" font-size="8" opacity="0.6">WS</text>
+
+  <path d="M800,310 L800,335" stroke="#3fb950" stroke-width="1" stroke-dasharray="4,2" marker-end="url(#arrowGreen)" opacity="0.4"/>
+  <text x="805" y="325" fill="#3fb950" font-size="8" opacity="0.6">WS</text>
+
+  <!-- ===== Legend ===== -->
+  <rect x="280" y="840" width="14" height="14" rx="3" fill="url(#brain)"/>
+  <text x="300" y="852" fill="#8b949e" font-size="10">Brain/OS</text>
+  <rect x="370" y="840" width="14" height="14" rx="3" fill="url(#aiengine)"/>
+  <text x="390" y="852" fill="#8b949e" font-size="10">AI Engine</text>
+  <rect x="460" y="840" width="14" height="14" rx="3" fill="url(#svc)"/>
+  <text x="480" y="852" fill="#8b949e" font-size="10">System Services</text>
+  <rect x="550" y="840" width="14" height="14" rx="3" fill="url(#desktop)"/>
+  <text x="570" y="852" fill="#8b949e" font-size="10">Desktop/Web</text>
+  <rect x="650" y="840" width="14" height="14" rx="3" fill="url(#cloud)"/>
+  <text x="670" y="852" fill="#8b949e" font-size="10">Cloud Service</text>
+  <rect x="730" y="840" width="14" height="14" rx="3" fill="url(#hal)"/>
+  <text x="750" y="852" fill="#8b949e" font-size="10">HAL</text>
+  <rect x="790" y="840" width="14" height="14" rx="3" fill="url(#edge)"/>
+  <text x="810" y="852" fill="#8b949e" font-size="10">Edge</text>
+  <rect x="850" y="840" width="14" height="14" rx="3" fill="url(#hw)"/>
+  <text x="870" y="852" fill="#8b949e" font-size="10">Hardware</text>
+  <rect x="920" y="840" width="14" height="14" rx="3" fill="url(#proto)"/>
+  <text x="940" y="852" fill="#8b949e" font-size="10">Protocol</text>
+
+  <text x="1050" y="852" fill="#484f58" font-size="9">—— gRPC/Protobuf · ---- WebSocket · v1.0.0-alpha</text>
+</svg>
