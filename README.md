@@ -18,7 +18,7 @@ From mechanical drawings and circuit design to operating systems and AI algorith
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-27%2B-blue?style=flat-square&logo=github" />
+  <img src="https://img.shields.io/badge/Projects-28%2B-blue?style=flat-square&logo=github" />
   <img src="https://img.shields.io/badge/License-Apache%202.0-green?style=flat-square" />
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" />
   <img src="https://img.shields.io/badge/Made%20with-Passion-red?style=flat-square" />
@@ -62,7 +62,7 @@ From mechanical drawings and circuit design to operating systems and AI algorith
 - 👯 **Looking to collaborate on:** AI open-source projects, enterprise SaaS systems
 - 💬 **Ask me about:** Java microservices, Spring Boot 3.x, AI Agent development, enterprise system design
 - 📫 **Reach me:** [hello@qoobot.com](mailto:hello@qoobot.com)
-- ⚡ **27+ open-source projects** across AI, ERP, cloud computing, e-commerce, Web3, robotics, and more
+- ⚡ **28+ open-source projects** across AI, ERP, cloud computing, e-commerce, Web3, robotics, and more
 
 ---
 
@@ -83,6 +83,7 @@ From mechanical drawings and circuit design to operating systems and AI algorith
 
 | Project | Description |
 |:--|-------------|
+| [eva](https://github.com/qoobots/eva) | Enterprise AI unified management platform — IAM, org & tenants, AI agents, knowledge base/RAG, low-code, CMS, monitoring & audit, 47 domains |
 | [qooerp](https://github.com/qoobots/qooerp) | Next-gen open-source ERP — 100+ business modules, DDD + Microservices |
 | [openaccounting](https://github.com/qoobots/openaccounting) | Enterprise accounting management (GL, reports, budgets, assets) |
 | [opentax](https://github.com/qoobots/opentax) | Enterprise tax management (invoicing, filing, risk control, Golden Tax IV) |

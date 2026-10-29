@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-27%2B-blue?style=flat-square&logo=github" />
+  <img src="https://img.shields.io/badge/Projects-28%2B-blue?style=flat-square&logo=github" />
   <img src="https://img.shields.io/badge/License-Apache%202.0-green?style=flat-square" />
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" />
   <img src="https://img.shields.io/badge/Made%20with-Passion-red?style=flat-square" />
@@ -64,7 +64,7 @@
 - 👯 **期待合作：** AI 开源项目、企业级 SaaS 系统
 - 💬 **可以聊：** Java 微服务、Spring Boot 3.x、AI Agent 开发、企业级系统架构设计
 - 📫 **联系我：** [hello@qoobot.com](mailto:hello@qoobot.com)
-- ⚡ **27+ 开源项目**，覆盖 AI、ERP、云计算、电商、Web3、机器人等多个领域
+- ⚡ **28+ 开源项目**，覆盖 AI、ERP、云计算、电商、Web3、机器人等多个领域
 
 ---
 
@@ -85,6 +85,7 @@
 
 | 项目 | 简介 |
 |:--|-------------|
+| [eva](https://github.com/qoobots/eva) | 企业级 AI 一体化管理平台 —— 身份权限、组织租户、AI 智能体、知识库 / RAG、低代码、内容中心、监控审计，共 47 个域 |
 | [qooerp](https://github.com/qoobots/qooerp) | 下一代开源 ERP —— 100+ 业务模块，DDD + 微服务 |
 | [openaccounting](https://github.com/qoobots/openaccounting) | 企业财务管理（总账、报表、预算、资产） |
 | [opentax](https://github.com/qoobots/opentax) | 企业税务管理（开票、申报、风控、金税四期） |
