@@ -2,11 +2,11 @@
 
 <img src="./docs/static/qoobot-logo.svg" alt="QooBot" width="480">
 
-**Full-Stack Open Source · Hardware + Software**
+**Full-Stack Open Source Humanoid Robot · OS + Body + Ecosystem**
 
-From mechanical drawings and circuit design to operating systems and AI algorithms — fully open source, freely manufactured. Build your own humanoid robot.
+Robot operating system, mechanical body, and developer ecosystem — all fully open source, freely manufactured. Build your own humanoid robot.
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Humanoid+Robot+OS;Open+Source+%2B+AI+%2B+Robotics;Building+the+future%2C+one+repo+at+a+time" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Humanoid+Robot;OS+%2B+Body+%2B+Ecosystem;Building+the+future%2C+one+repo+at+a+time" alt="Typing SVG" />
 
 </div>
 
@@ -26,9 +26,15 @@ From mechanical drawings and circuit design to operating systems and AI algorith
 
 ---
 
-## 🤖 QooBot — Full-Stack Open Source Humanoid Robot OS
+## 🤖 QooBot — Full-Stack Open Source Humanoid Robot
 
-> **Building a universal operating system for the next generation of physical AI** — centered on humanoid robots, spanning industrial, service, home, and all-scenario applications.
+> **A humanoid robot built on three pillars: the Operating System, the Body, and the Ecosystem.**
+>
+> - 🧠 **OS** — the robot operating system: HAL, AI engine, Brain core, system services, edge modules
+> - 🦾 **Body** — the mechanical body: mechanical drawings, circuit design, actuators and sensors
+> - 🌐 **Ecosystem** — the developer ecosystem: skill store, community, toolchain and cloud services
+>
+> Together they form a universal foundation for the next generation of physical AI, spanning industrial, service, home, and all-scenario applications.
 
 <p align="center">
   <img src="./docs/static/robot_lab.jpg" alt="QooBot Humanoid Robot Lab" width="90%">

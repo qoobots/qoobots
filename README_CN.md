@@ -2,11 +2,11 @@
 
 <img src="./docs/static/qoobot-logo.svg" alt="QooBot" width="480">
 
-**全栈开源 · 硬件 + 软件**
+**全栈开源人形机器人 · 操作系统 + 躯体 + 生态**
 
-从机械图纸、电路设计到操作系统与 AI 算法 —— 完全开源，自由制造。打造属于你自己的人形机器人。
+从机器人操作系统、机器躯体到开发者生态 —— 完全开源，自由制造。打造属于你自己的人形机器人。
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Humanoid+Robot+OS;Open+Source+%2B+AI+%2B+Robotics;Building+the+future%2C+one+repo+at+a+time" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Humanoid+Robot;OS+%2B+Body+%2B+Ecosystem;Building+the+future%2C+one+repo+at+a+time" alt="Typing SVG" />
 
 </div>
 
@@ -28,9 +28,15 @@
 
 ---
 
-## 🤖 QooBot —— 全栈开源人形机器人操作系统
+## 🤖 QooBot —— 全栈开源人形机器人
 
-> **为下一代物理 AI 构建通用操作系统** —— 以人形机器人为核心，覆盖工业、服务、家庭等全场景应用。
+> **一台由「操作系统 + 躯体 + 生态」三大支柱构成的人形机器人。**
+>
+> - 🧠 **操作系统（OS）** —— 机器人操作系统：硬件抽象层 HAL、AI 引擎、大脑核心、系统服务、边缘模块
+> - 🦾 **躯体（Body）** —— 机器躯体：机械图纸、电路设计、关节舵机与传感器
+> - 🌐 **生态（Ecosystem）** —— 开发者生态：技能商店、开源社区、开发工具链与云服务
+>
+> 三者共同构成下一代物理 AI 的通用底座，覆盖工业、服务、家庭等全场景应用。
 
 <p align="center">
   <img src="./docs/static/robot_lab.jpg" alt="QooBot 人形机器人实验室" width="90%">
