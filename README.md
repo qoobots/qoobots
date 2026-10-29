@@ -18,7 +18,7 @@ From mechanical drawings and circuit design to operating systems and AI algorith
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-28%2B-blue?style=flat-square&logo=github" />
+  <img src="https://img.shields.io/badge/Projects-30%2B-blue?style=flat-square&logo=github" />
   <img src="https://img.shields.io/badge/License-Apache%202.0-green?style=flat-square" />
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" />
   <img src="https://img.shields.io/badge/Made%20with-Passion-red?style=flat-square" />
@@ -62,7 +62,7 @@ From mechanical drawings and circuit design to operating systems and AI algorith
 - 👯 **Looking to collaborate on:** AI open-source projects, enterprise SaaS systems
 - 💬 **Ask me about:** Java microservices, Spring Boot 3.x, AI Agent development, enterprise system design
 - 📫 **Reach me:** [hello@qoobot.com](mailto:hello@qoobot.com)
-- ⚡ **28+ open-source projects** across AI, ERP, cloud computing, e-commerce, Web3, robotics, and more
+- ⚡ **30+ open-source projects** across AI, ERP, cloud computing, e-commerce, Web3, robotics, and more
 
 ---
 
@@ -78,6 +78,8 @@ From mechanical drawings and circuit design to operating systems and AI algorith
 | [openllm](https://github.com/qoobots/openllm) | 10 vertical-domain LLM fine-tuning projects (Finance, Healthcare, Legal, Manufacturing, etc.) |
 | [openlabeling](https://github.com/qoobots/openlabeling) | LLM data annotation platform |
 | [qoowork](https://github.com/qoobots/qoowork) | AI office platform — all-scenario desktop AI assistant + IDE plugin |
+| [evacode](https://github.com/qoobots/evacode) | AI-native IDE built on Code - OSS — built-in agent host with Copilot Chat, Claude Agent SDK & Codex |
+| [evawork](https://github.com/qoobots/evawork) | EvaWork Desktop — desktop AI workbench: Electron shell + Vue 3 UI + TypeScript agent runtime, backend-free |
 
 ### 🏢 Enterprise
 

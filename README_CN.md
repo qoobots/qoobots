@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-28%2B-blue?style=flat-square&logo=github" />
+  <img src="https://img.shields.io/badge/Projects-30%2B-blue?style=flat-square&logo=github" />
   <img src="https://img.shields.io/badge/License-Apache%202.0-green?style=flat-square" />
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" />
   <img src="https://img.shields.io/badge/Made%20with-Passion-red?style=flat-square" />
@@ -64,7 +64,7 @@
 - 👯 **期待合作：** AI 开源项目、企业级 SaaS 系统
 - 💬 **可以聊：** Java 微服务、Spring Boot 3.x、AI Agent 开发、企业级系统架构设计
 - 📫 **联系我：** [hello@qoobot.com](mailto:hello@qoobot.com)
-- ⚡ **28+ 开源项目**，覆盖 AI、ERP、云计算、电商、Web3、机器人等多个领域
+- ⚡ **30+ 开源项目**，覆盖 AI、ERP、云计算、电商、Web3、机器人等多个领域
 
 ---
 
@@ -80,6 +80,8 @@
 | [openllm](https://github.com/qoobots/openllm) | 10 个垂直领域大模型微调项目（金融、医疗、法律、制造等） |
 | [openlabeling](https://github.com/qoobots/openlabeling) | 大模型数据标注平台 |
 | [qoowork](https://github.com/qoobots/qoowork) | AI 办公平台 —— 全场景桌面 AI 助手 + IDE 插件 |
+| [evacode](https://github.com/qoobots/evacode) | AI 原生 IDE，基于 Code - OSS 构建 —— 内置智能体宿主，集成 Copilot Chat、Claude Agent SDK 与 Codex |
+| [evawork](https://github.com/qoobots/evawork) | EvaWork Desktop 桌面 AI 工作台 —— Electron 壳 + Vue 3 界面 + TypeScript 智能体运行时，无需后端服务 |
 
 ### 🏢 企业级应用
 
