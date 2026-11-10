@@ -2,16 +2,15 @@
 
 <img src="./docs/static/qoobot-logo.svg" alt="QooBot" width="480">
 
-**Full-Stack Open Source Humanoid Robot · OS + Body + Ecosystem**
+**Full-Stack Humanoid Robot · OS + Body + Ecosystem**
 
-Robot operating system, mechanical body, and developer ecosystem — all fully open source, freely manufactured. Build your own humanoid robot.
+Robot operating system, mechanical body, and developer ecosystem. Build your own humanoid robot.
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Humanoid+Robot;OS+%2B+Body+%2B+Ecosystem;Building+the+future%2C+one+repo+at+a+time" alt="Typing SVG" />
 
 </div>
 
 <p align="center">
-  <a href="https://github.com/qoobots/qoobot/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue.svg" alt="License"></a>
   <a href="https://github.com/qoobots/qoobot"><img src="https://img.shields.io/github/stars/qoobots/qoobot?style=social" alt="Stars"></a>
   <a href="https://github.com/qoobots/qoobot"><img src="https://img.shields.io/github/forks/qoobots/qoobot?style=social" alt="Forks"></a>
   <a href="https://github.com/qoobots/qoobot/discussions"><img src="https://img.shields.io/badge/discussions-welcome-181717?logo=github" alt="Discussions"></a>
@@ -19,14 +18,13 @@ Robot operating system, mechanical body, and developer ecosystem — all fully o
 
 <p align="center">
   <img src="https://img.shields.io/badge/Projects-30%2B-blue?style=flat-square&logo=github" />
-  <img src="https://img.shields.io/badge/License-Apache%202.0-green?style=flat-square" />
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" />
   <img src="https://img.shields.io/badge/Made%20with-Passion-red?style=flat-square" />
 </p>
 
 ---
 
-## 🤖 QooBot — Full-Stack Open Source Humanoid Robot
+## 🤖 QooBot — Full-Stack Humanoid Robot
 
 > **A humanoid robot built on three pillars: the Operating System, the Body, and the Ecosystem.**
 >
@@ -65,10 +63,10 @@ Robot operating system, mechanical body, and developer ecosystem — all fully o
 
 - 🔭 **Currently working on:** QooBot Humanoid Robot OS &amp; QooERP Enterprise ERP System
 - 🌱 **Exploring:** Multimodal LLMs, AI Agent vertical industry deployment, Web3 + Decentralized Identity (DID)
-- 👯 **Looking to collaborate on:** AI open-source projects, enterprise SaaS systems
+- 👯 **Looking to collaborate on:** AI projects, enterprise SaaS systems
 - 💬 **Ask me about:** Java microservices, Spring Boot 3.x, AI Agent development, enterprise system design
 - 📫 **Reach me:** [hello@qoobot.com](mailto:hello@qoobot.com)
-- ⚡ **30+ open-source projects** across AI, ERP, cloud computing, e-commerce, Web3, robotics, and more
+- ⚡ **30+ projects** across AI, ERP, cloud computing, e-commerce, Web3, robotics, and more
 
 ---
 
@@ -92,11 +90,11 @@ Robot operating system, mechanical body, and developer ecosystem — all fully o
 | Project | Description |
 |:--|-------------|
 | [eva](https://github.com/qoobots/eva) | Enterprise AI unified management platform — IAM, org & tenants, AI agents, knowledge base/RAG, low-code, CMS, monitoring & audit, 47 domains |
-| [qooerp](https://github.com/qoobots/qooerp) | Next-gen open-source ERP — 100+ business modules, DDD + Microservices |
+| [qooerp](https://github.com/qoobots/qooerp) | Next-gen ERP — 100+ business modules, DDD + Microservices |
 | [openaccounting](https://github.com/qoobots/openaccounting) | Enterprise accounting management (GL, reports, budgets, assets) |
 | [opentax](https://github.com/qoobots/opentax) | Enterprise tax management (invoicing, filing, risk control, Golden Tax IV) |
 | [openscm](https://github.com/qoobots/openscm) | Supply chain management (suppliers, procurement, inventory, logistics) |
-| [openwarehouse](https://github.com/qoobots/openwarehouse) | Open-source WMS with 4-level warehouse hierarchy |
+| [openwarehouse](https://github.com/qoobots/openwarehouse) | WMS with 4-level warehouse hierarchy |
 | [openidaas](https://github.com/qoobots/openidaas) | Enterprise IDaaS — OAuth2.1 + SAML 2.0 |
 | [openadmin](https://github.com/qoobots/openadmin) | Modern enterprise application framework, complete microservice solution |
 
@@ -104,7 +102,7 @@ Robot operating system, mechanical body, and developer ecosystem — all fully o
 
 | Project | Description |
 |:--|-------------|
-| [opencloud](https://github.com/qoobots/opencloud) | Enterprise open-source cloud platform — VM + container dual architecture |
+| [opencloud](https://github.com/qoobots/opencloud) | Enterprise cloud platform — VM + container dual architecture |
 | [openlowcode](https://github.com/qoobots/openlowcode) | JavaFX desktop low-code code generation platform |
 | [solra](https://github.com/qoobots/solra) | Next-gen decentralized virtual world (5G spatial social) |
 | [openclaw](https://github.com/qoobots/openclaw) | Personal AI assistant supporting 25+ messaging channels |
@@ -128,7 +126,7 @@ Robot operating system, mechanical body, and developer ecosystem — all fully o
 
 <br><br>
 
-### "Building enterprise-grade open source with AI, one commit at a time."
+### "Building enterprise-grade software with AI, one commit at a time."
 
 <img src="https://komarev.com/ghpvc/?username=qoobots&style=flat-square&color=blue" alt="Profile Views" />
 
