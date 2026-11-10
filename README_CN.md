@@ -2,16 +2,15 @@
 
 <img src="./docs/static/qoobot-logo.svg" alt="QooBot" width="480">
 
-**全栈开源人形机器人 · 操作系统 + 躯体 + 生态**
+**全栈人形机器人 · 操作系统 + 躯体 + 生态**
 
-从机器人操作系统、机器躯体到开发者生态 —— 完全开源，自由制造。打造属于你自己的人形机器人。
+从机器人操作系统、机器躯体到开发者生态 —— 打造属于你自己的人形机器人。
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Humanoid+Robot;OS+%2B+Body+%2B+Ecosystem;Building+the+future%2C+one+repo+at+a+time" alt="Typing SVG" />
 
 </div>
 
 <p align="center">
-  <a href="https://github.com/qoobots/qoobot/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue.svg" alt="License"></a>
   <a href="https://github.com/qoobots/qoobot"><img src="https://img.shields.io/github/stars/qoobots/qoobot?style=social" alt="Stars"></a>
   <a href="https://github.com/qoobots/qoobot"><img src="https://img.shields.io/github/forks/qoobots/qoobot?style=social" alt="Forks"></a>
   <a href="https://github.com/qoobots/qoobot/discussions"><img src="https://img.shields.io/badge/discussions-welcome-181717?logo=github" alt="Discussions"></a>
@@ -19,7 +18,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Projects-30%2B-blue?style=flat-square&logo=github" />
-  <img src="https://img.shields.io/badge/License-Apache%202.0-green?style=flat-square" />
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" />
   <img src="https://img.shields.io/badge/Made%20with-Passion-red?style=flat-square" />
 </p>
@@ -28,13 +26,13 @@
 
 ---
 
-## 🤖 QooBot —— 全栈开源人形机器人
+## 🤖 QooBot —— 全栈人形机器人
 
 > **一台由「操作系统 + 躯体 + 生态」三大支柱构成的人形机器人。**
 >
 > - 🧠 **操作系统（OS）** —— 机器人操作系统：硬件抽象层 HAL、AI 引擎、大脑核心、系统服务、边缘模块
 > - 🦾 **躯体（Body）** —— 机器躯体：机械图纸、电路设计、关节舵机与传感器
-> - 🌐 **生态（Ecosystem）** —— 开发者生态：技能商店、开源社区、开发工具链与云服务
+> - 🌐 **生态（Ecosystem）** —— 开发者生态：技能商店、开发者社区、开发工具链与云服务
 >
 > 三者共同构成下一代物理 AI 的通用底座，覆盖工业、服务、家庭等全场景应用。
 
@@ -67,10 +65,10 @@
 
 - 🔭 **当前在做：** QooBot 人形机器人操作系统 & QooERP 企业级 ERP 系统
 - 🌱 **正在探索：** 多模态大模型、AI Agent 垂直行业落地、Web3 + 去中心化身份（DID）
-- 👯 **期待合作：** AI 开源项目、企业级 SaaS 系统
+- 👯 **期待合作：** AI 项目、企业级 SaaS 系统
 - 💬 **可以聊：** Java 微服务、Spring Boot 3.x、AI Agent 开发、企业级系统架构设计
 - 📫 **联系我：** [hello@qoobot.com](mailto:hello@qoobot.com)
-- ⚡ **30+ 开源项目**，覆盖 AI、ERP、云计算、电商、Web3、机器人等多个领域
+- ⚡ **30+ 项目**，覆盖 AI、ERP、云计算、电商、Web3、机器人等多个领域
 
 ---
 
@@ -94,11 +92,11 @@
 | 项目 | 简介 |
 |:--|-------------|
 | [eva](https://github.com/qoobots/eva) | 企业级 AI 一体化管理平台 —— 身份权限、组织租户、AI 智能体、知识库 / RAG、低代码、内容中心、监控审计，共 47 个域 |
-| [qooerp](https://github.com/qoobots/qooerp) | 下一代开源 ERP —— 100+ 业务模块，DDD + 微服务 |
+| [qooerp](https://github.com/qoobots/qooerp) | 下一代 ERP —— 100+ 业务模块，DDD + 微服务 |
 | [openaccounting](https://github.com/qoobots/openaccounting) | 企业财务管理（总账、报表、预算、资产） |
 | [opentax](https://github.com/qoobots/opentax) | 企业税务管理（开票、申报、风控、金税四期） |
 | [openscm](https://github.com/qoobots/openscm) | 供应链管理（供应商、采购、库存、物流） |
-| [openwarehouse](https://github.com/qoobots/openwarehouse) | 开源 WMS，四级仓库层级结构 |
+| [openwarehouse](https://github.com/qoobots/openwarehouse) | WMS，四级仓库层级结构 |
 | [openidaas](https://github.com/qoobots/openidaas) | 企业级 IDaaS 身份认证平台 —— OAuth2.1 + SAML 2.0 |
 | [openadmin](https://github.com/qoobots/openadmin) | 现代化企业应用框架，完整的微服务解决方案 |
 
@@ -106,7 +104,7 @@
 
 | 项目 | 简介 |
 |:--|-------------|
-| [opencloud](https://github.com/qoobots/opencloud) | 企业级开源云平台 —— 虚拟机 + 容器双架构 |
+| [opencloud](https://github.com/qoobots/opencloud) | 企业级云平台 —— 虚拟机 + 容器双架构 |
 | [openlowcode](https://github.com/qoobots/openlowcode) | JavaFX 桌面端低代码代码生成平台 |
 | [solra](https://github.com/qoobots/solra) | 下一代去中心化虚拟世界（5G 空间社交） |
 | [openclaw](https://github.com/qoobots/openclaw) | 个人 AI 助手，支持 25+ 消息渠道接入 |
@@ -130,9 +128,9 @@
 
 <br><br>
 
-### "Building enterprise-grade open source with AI, one commit at a time."
+### "Building enterprise-grade software with AI, one commit at a time."
 
-> 以 AI 构建企业级开源，一次提交，一步前行。
+> 以 AI 构建企业级软件，一次提交，一步前行。
 
 <img src="https://komarev.com/ghpvc/?username=qoobots&style=flat-square&color=blue" alt="Profile Views" />
 
