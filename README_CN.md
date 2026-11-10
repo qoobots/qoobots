@@ -10,19 +10,16 @@
 
 </div>
 
+> [English](./README.md) | 简体中文
+
 <p align="center">
   <a href="https://github.com/qoobots/qoobot"><img src="https://img.shields.io/github/stars/qoobots/qoobot?style=social" alt="Stars"></a>
   <a href="https://github.com/qoobots/qoobot"><img src="https://img.shields.io/github/forks/qoobots/qoobot?style=social" alt="Forks"></a>
   <a href="https://github.com/qoobots/qoobot/discussions"><img src="https://img.shields.io/badge/discussions-welcome-181717?logo=github" alt="Discussions"></a>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/Projects-30%2B-blue?style=flat-square&logo=github" />
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" />
   <img src="https://img.shields.io/badge/Made%20with-Passion-red?style=flat-square" />
 </p>
-
-> [English](./README.md) | 简体中文
 
 ---
 
@@ -40,13 +37,14 @@
   <img src="./docs/static/robot_lab.jpg" alt="QooBot 人形机器人实验室" width="90%">
 </p>
 
-### 🏗 系统架构
+<details>
+<summary><b>🏗 系统架构与平台总览</b></summary>
+
+<br>
 
 <p align="center">
   <img src="./docs/static/architecture_zh.svg" alt="QooBot 系统架构" width="100%">
 </p>
-
-### 🧩 平台总览
 
 | 平台 | 定位 | 技术栈 |
 |:--|------|--------|
@@ -59,22 +57,29 @@
 
 > 📂 **[浏览完整的 QooBot 项目 →](https://github.com/qoobots/qoobot)**
 
----
-
-## 🧑‍💻 关于我
-
-- 🔭 **当前在做：** QooBot 人形机器人操作系统 & QooERP 企业级 ERP 系统
-- 🌱 **正在探索：** 多模态大模型、AI Agent 垂直行业落地、Web3 + 去中心化身份（DID）
-- 👯 **期待合作：** AI 项目、企业级 SaaS 系统
-- 💬 **可以聊：** Java 微服务、Spring Boot 3.x、AI Agent 开发、企业级系统架构设计
-- 📫 **联系我：** [hello@qoobot.com](mailto:hello@qoobot.com)
-- ⚡ **30+ 项目**，覆盖 AI、ERP、云计算、电商、Web3、机器人等多个领域
+</details>
 
 ---
 
-## 📦 项目清单
+## ⭐ 精选项目
 
-### 🤖 AI 与大模型
+| 项目 | 简介 |
+|:--|-------------|
+| 🤖 [**qoocode**](https://github.com/qoobots/qoocode) | Claude Code 风格的 AI 编程助手 CLI —— 63+ 斜杠命令、34+ 工具 |
+| 💻 [**evacode**](https://github.com/qoobots/evacode) | AI 原生 IDE，基于 Code - OSS 构建 —— 内置智能体宿主，集成 Copilot Chat、Claude Agent SDK 与 Codex |
+| 🧠 [**eva**](https://github.com/qoobots/eva) | 企业级 AI 一体化管理平台 —— 身份权限、AI 智能体、知识库 / RAG、低代码，共 47 个域 |
+| 🏭 [**qooerp**](https://github.com/qoobots/qooerp) | 下一代 ERP —— 100+ 业务模块，DDD + 微服务 |
+| 🤝 [**openagent**](https://github.com/qoobots/openagent) | 覆盖 23 个垂直领域的 AI Agent 系统 —— LangChain4J + Spring AI |
+| 🦾 [**qoobot**](https://github.com/qoobots/qoobot) | 全栈人形机器人 —— 操作系统、机器躯体与开发者生态 |
+
+---
+
+## 📦 全部项目
+
+<details open>
+<summary><b>🤖 AI 与大模型</b></summary>
+
+<br>
 
 | 项目 | 简介 |
 |:--|-------------|
@@ -87,7 +92,12 @@
 | [evacode](https://github.com/qoobots/evacode) | AI 原生 IDE，基于 Code - OSS 构建 —— 内置智能体宿主，集成 Copilot Chat、Claude Agent SDK 与 Codex |
 | [evawork](https://github.com/qoobots/evawork) | EvaWork Desktop 桌面 AI 工作台 —— Electron 壳 + Vue 3 界面 + TypeScript 智能体运行时，无需后端服务 |
 
-### 🏢 企业级应用
+</details>
+
+<details>
+<summary><b>🏢 企业级应用</b></summary>
+
+<br>
 
 | 项目 | 简介 |
 |:--|-------------|
@@ -100,7 +110,12 @@
 | [openidaas](https://github.com/qoobots/openidaas) | 企业级 IDaaS 身份认证平台 —— OAuth2.1 + SAML 2.0 |
 | [openadmin](https://github.com/qoobots/openadmin) | 现代化企业应用框架，完整的微服务解决方案 |
 
-### ☁️ 平台与基础设施
+</details>
+
+<details>
+<summary><b>☁️ 平台与基础设施</b></summary>
+
+<br>
 
 | 项目 | 简介 |
 |:--|-------------|
@@ -109,7 +124,12 @@
 | [solra](https://github.com/qoobots/solra) | 下一代去中心化虚拟世界（5G 空间社交） |
 | [openclaw](https://github.com/qoobots/openclaw) | 个人 AI 助手，支持 25+ 消息渠道接入 |
 
-### 🛒 电商 · 社交 · Web3
+</details>
+
+<details>
+<summary><b>🛒 电商 · 社交 · Web3</b></summary>
+
+<br>
 
 | 项目 | 简介 |
 |:--|-------------|
@@ -118,6 +138,43 @@
 | [openrecommend](https://github.com/qoobots/openrecommend) | 多内容智能推荐系统 |
 | [openweb3](https://github.com/qoobots/openweb3) | Web3 应用场景与架构蓝图（20 大场景 + RWA / DePIN） |
 | [openblog](https://github.com/qoobots/openblog) | QooBot 官方展示站（赛博朋克终端风格） |
+
+</details>
+
+---
+
+## 🛠 技术栈
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js" />
+  <img src="https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white" alt="ROS2" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+</p>
+
+---
+
+## 🧑‍💻 关于我
+
+- 🔭 **当前在做：** QooBot 人形机器人操作系统 & QooERP 企业级 ERP 系统
+- 🌱 **正在探索：** 多模态大模型、AI Agent 垂直行业落地、Web3 + 去中心化身份（DID）
+- 👯 **期待合作：** AI 项目、企业级 SaaS 系统
+- 💬 **可以聊：** Java 微服务、Spring Boot 3.x、AI Agent 开发、企业级系统架构设计
+- 📫 **联系我：** [hello@qoobot.com](mailto:hello@qoobot.com)
+- ⚡ **30+ 项目**，覆盖 AI、ERP、云计算、电商、Web3、机器人等多个领域
+
+<p align="center">
+  <a href="https://github.com/qoobots"><img src="https://github-readme-stats.vercel.app/api?username=qoobots&show_icons=true&hide_border=true&rank_icon=github&count_private=true" alt="GitHub Stats" width="48%"></a>
+  <a href="https://github.com/qoobots"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=qoobots&layout=compact&hide_border=true&langs_count=8" alt="Top Languages" width="48%"></a>
+</p>
 
 ---
 

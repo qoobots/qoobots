@@ -10,13 +10,12 @@ Robot operating system, mechanical body, and developer ecosystem. Build your own
 
 </div>
 
+> [English](./README.md) | [简体中文](./README_CN.md)
+
 <p align="center">
   <a href="https://github.com/qoobots/qoobot"><img src="https://img.shields.io/github/stars/qoobots/qoobot?style=social" alt="Stars"></a>
   <a href="https://github.com/qoobots/qoobot"><img src="https://img.shields.io/github/forks/qoobots/qoobot?style=social" alt="Forks"></a>
   <a href="https://github.com/qoobots/qoobot/discussions"><img src="https://img.shields.io/badge/discussions-welcome-181717?logo=github" alt="Discussions"></a>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/Projects-30%2B-blue?style=flat-square&logo=github" />
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" />
   <img src="https://img.shields.io/badge/Made%20with-Passion-red?style=flat-square" />
@@ -38,13 +37,14 @@ Robot operating system, mechanical body, and developer ecosystem. Build your own
   <img src="./docs/static/robot_lab.jpg" alt="QooBot Humanoid Robot Lab" width="90%">
 </p>
 
-### 🏗 Architecture
+<details>
+<summary><b>🏗 Architecture &amp; Platforms</b></summary>
+
+<br>
 
 <p align="center">
   <img src="./docs/static/architecture_zh.svg" alt="QooBot Architecture" width="100%">
 </p>
-
-### 🧩 Platform Overview
 
 | Platform | Role | Tech Stack |
 |:--|------|--------|
@@ -57,22 +57,29 @@ Robot operating system, mechanical body, and developer ecosystem. Build your own
 
 > 📂 **[Explore the full QooBot project →](https://github.com/qoobots/qoobot)**
 
----
-
-## 🧑‍💻 About Me
-
-- 🔭 **Currently working on:** QooBot Humanoid Robot OS &amp; QooERP Enterprise ERP System
-- 🌱 **Exploring:** Multimodal LLMs, AI Agent vertical industry deployment, Web3 + Decentralized Identity (DID)
-- 👯 **Looking to collaborate on:** AI projects, enterprise SaaS systems
-- 💬 **Ask me about:** Java microservices, Spring Boot 3.x, AI Agent development, enterprise system design
-- 📫 **Reach me:** [hello@qoobot.com](mailto:hello@qoobot.com)
-- ⚡ **30+ projects** across AI, ERP, cloud computing, e-commerce, Web3, robotics, and more
+</details>
 
 ---
 
-## 📦 Project Catalog
+## ⭐ Featured Projects
 
-### 🤖 AI &amp; LLM
+| Project | Description |
+|:--|-------------|
+| 🤖 [**qoocode**](https://github.com/qoobots/qoocode) | Claude Code-style AI coding assistant CLI — 63+ slash commands, 34+ tools |
+| 💻 [**evacode**](https://github.com/qoobots/evacode) | AI-native IDE built on Code - OSS — built-in agent host with Copilot Chat, Claude Agent SDK & Codex |
+| 🧠 [**eva**](https://github.com/qoobots/eva) | Enterprise AI unified management platform — IAM, AI agents, knowledge base/RAG, low-code, 47 domains |
+| 🏭 [**qooerp**](https://github.com/qoobots/qooerp) | Next-gen ERP — 100+ business modules, DDD + Microservices |
+| 🤝 [**openagent**](https://github.com/qoobots/openagent) | AI Agent system covering 23 vertical domains — LangChain4J + Spring AI |
+| 🦾 [**qoobot**](https://github.com/qoobots/qoobot) | Full-stack humanoid robot — OS, mechanical body, and developer ecosystem |
+
+---
+
+## 📦 All Projects
+
+<details open>
+<summary><b>🤖 AI &amp; LLM</b></summary>
+
+<br>
 
 | Project | Description |
 |:--|-------------|
@@ -85,7 +92,12 @@ Robot operating system, mechanical body, and developer ecosystem. Build your own
 | [evacode](https://github.com/qoobots/evacode) | AI-native IDE built on Code - OSS — built-in agent host with Copilot Chat, Claude Agent SDK & Codex |
 | [evawork](https://github.com/qoobots/evawork) | EvaWork Desktop — desktop AI workbench: Electron shell + Vue 3 UI + TypeScript agent runtime, backend-free |
 
-### 🏢 Enterprise
+</details>
+
+<details>
+<summary><b>🏢 Enterprise</b></summary>
+
+<br>
 
 | Project | Description |
 |:--|-------------|
@@ -98,7 +110,12 @@ Robot operating system, mechanical body, and developer ecosystem. Build your own
 | [openidaas](https://github.com/qoobots/openidaas) | Enterprise IDaaS — OAuth2.1 + SAML 2.0 |
 | [openadmin](https://github.com/qoobots/openadmin) | Modern enterprise application framework, complete microservice solution |
 
-### ☁️ Platform &amp; Infrastructure
+</details>
+
+<details>
+<summary><b>☁️ Platform &amp; Infrastructure</b></summary>
+
+<br>
 
 | Project | Description |
 |:--|-------------|
@@ -107,7 +124,12 @@ Robot operating system, mechanical body, and developer ecosystem. Build your own
 | [solra](https://github.com/qoobots/solra) | Next-gen decentralized virtual world (5G spatial social) |
 | [openclaw](https://github.com/qoobots/openclaw) | Personal AI assistant supporting 25+ messaging channels |
 
-### 🛒 E-Commerce &amp; Social &amp; Web3
+</details>
+
+<details>
+<summary><b>🛒 E-Commerce &amp; Social &amp; Web3</b></summary>
+
+<br>
 
 | Project | Description |
 |:--|-------------|
@@ -116,6 +138,43 @@ Robot operating system, mechanical body, and developer ecosystem. Build your own
 | [openrecommend](https://github.com/qoobots/openrecommend) | Multi-content intelligent recommendation system |
 | [openweb3](https://github.com/qoobots/openweb3) | Web3 application scenarios &amp; architecture blueprint (20 scenarios + RWA/DePIN) |
 | [openblog](https://github.com/qoobots/openblog) | QooBot official showcase (cyberpunk terminal style) |
+
+</details>
+
+---
+
+## 🛠 Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js" />
+  <img src="https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white" alt="ROS2" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+</p>
+
+---
+
+## 🧑‍💻 About Me
+
+- 🔭 **Currently working on:** QooBot Humanoid Robot OS &amp; QooERP Enterprise ERP System
+- 🌱 **Exploring:** Multimodal LLMs, AI Agent vertical industry deployment, Web3 + Decentralized Identity (DID)
+- 👯 **Looking to collaborate on:** AI projects, enterprise SaaS systems
+- 💬 **Ask me about:** Java microservices, Spring Boot 3.x, AI Agent development, enterprise system design
+- 📫 **Reach me:** [hello@qoobot.com](mailto:hello@qoobot.com)
+- ⚡ **30+ projects** across AI, ERP, cloud computing, e-commerce, Web3, robotics, and more
+
+<p align="center">
+  <a href="https://github.com/qoobots"><img src="https://github-readme-stats.vercel.app/api?username=qoobots&show_icons=true&hide_border=true&rank_icon=github&count_private=true" alt="GitHub Stats" width="48%"></a>
+  <a href="https://github.com/qoobots"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=qoobots&layout=compact&hide_border=true&langs_count=8" alt="Top Languages" width="48%"></a>
+</p>
 
 ---
 
